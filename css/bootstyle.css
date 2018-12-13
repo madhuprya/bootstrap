@@ -91,13 +91,65 @@ h3,h4{
     
     
  }
-footer{
-    height: auto;
+dl{
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu{
+    flex-basis: 100;
+}
+/*map*/
+#contatti{
+    background-color: rgb(92, 91, 91);
+  letter-spacing: 2px;
+  margin: auto;
+  
+  }
+#contatti a{
+  color: #fff;
+  text-decoration: none;
+}
+#contatti label{
+    color: #fff;
+}
+
+@media (max-width: 575.98px) {
+
+  #contatti{padding-bottom: 800px;}
+  #contatti .maps iframe{
     width: 100%;
-    background-color: rgb(22, 22, 22);
-    color: white;
-    font-weight: 100;
-    margin-bottom: 100px;
+    height: 450px;
+  }
+ }
+
+
+@media (min-width: 576px) {
+
+   #contatti{padding-bottom: 800px;}
+
+   #contatti .maps iframe{
+     width: 100%;
+     height: 450px;
+   }
+ }
+
+@media (min-width: 768px) {
+
+  #contatti{padding-bottom: 350px;}
+
+  #contatti .maps iframe{
+    width: 100%;
+    height: 850px;
+  }
+}
+
+@media (min-width: 992px) {
+  #contatti{padding-bottom: 200px;}
+
+   #contatti .maps iframe{
+     width: 100%;
+     height: 700px;
+   }
 }
 
 @media screen and (min-width:700px){
