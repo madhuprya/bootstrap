@@ -31,6 +31,7 @@ header.container-fluid {
 .jumbotron{
     height: auto;;
     width: 100%;
+    margin-top: 100px;
     
 }
 .responsive{
@@ -42,7 +43,7 @@ header.container-fluid {
     width:100%;
     background-color: white;
     height:400px;
-    margin-top: 400px;
+    margin-top: 50px;
 }
 .flex-container
 {
@@ -55,7 +56,7 @@ header.container-fluid {
 }
 .category div{
     width:30%;
-    height:80%;
+    height:300px;
     background-color:whitesmoke;
     margin:auto;
 }
@@ -64,12 +65,11 @@ header.container-fluid {
     width:100%;
 }
 .category dd{
-    width: 80%;
+    width: 100%;
     text-align: center;
     color:rgb(43, 41, 41);
-    font-size:100%;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bolder;
+    font-size:70%;
+    font-family: serif;
 }
 .lunch , .bft , .dinner {
     font-family: 'Times New Roman', Times, serif;
@@ -97,6 +97,7 @@ footer{
     background-color: rgb(22, 22, 22);
     color: white;
     font-weight: 100;
+    margin-bottom: 100px;
 }
 
 @media screen and (min-width:700px){
