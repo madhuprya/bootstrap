@@ -11,6 +11,8 @@
          <!--google fonts-->
          <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
          <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+         <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+
          <!--social links-->
       <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
        -->
@@ -24,56 +26,117 @@
     
     <body class="container-fluid">
         <header class="container-fluid fixed-top">
-            <nav class="navbar navbar-expand-sm bg-dark navbar-dark ">
-                <a class="navbar-brand" href="#">
-                    <img src="image/logo.png" alt="logo" style="width:40px;">
-                </a>
+                        
+           
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                            <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a class="navbar-brand"  href="#">
+                            <img src="image/logo.png" class="rounded-circle" alt="logo" style="width:80px;">
+                    </a>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link" href="#">home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">about</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">menu</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">offers</a></li>
+                    <li class="nav-item"><a class="nav-link " href="#">offers</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">contact</a></li>
                 </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#">sign in</a></li>
+                </ul>
+                </div>
             </nav>
         </header>
-  
-        <main id="offers" class="carousel slide" data-ride="carousel">
+        <div class="jumbotron text-center" style="margin-bottom:0">
+            <main id="offers" class="carousel slide justify-content-center " data-ride="carousel">
 
-                <ul class="carousel-indicators">
-                  <li data-target="#offers" data-slide-to="0" class="active"></li>
-                  <li data-target="#offers" data-slide-to="1"></li>
-                  <li data-target="#offers" data-slide-to="2"></li>
-                </ul>
-                
-                <div class="carousel-inner">
-                  <figure class="carousel-item active">
-                    <img src="image/bft.jpg" alt="bft" class="responsive">
-                    <figcaption class="carousel-caption">
-                    <p>Breakfast under $10. pay online</p>
-                    </figcaption>
-                  </figure>
-                  <figure class="carousel-item">
-                    <img src="image/chocowalnut.jpg" alt="chocowalnut" class="responsive">
-                    <figcaption class="carousel-caption">
-                        <p>50% discount on desert on paytm</p>
-                    </figcaption>
-                  </figure>
-                  <figure class="carousel-item">
-                    <img src="image/lunch.jpg" alt="lunch" class="responsive">
-                    <figcaption class="carousel-caption">
-                        <p>order dinner online and get upto 30% cashback</p>
-                    </figcaption>
-                  </figure>
-                </div>
-                
-                <a class="carousel-control-prev" href="#offers" data-slide="prev">
-                  <span class="carousel-control-prev-icon"></span>
-                </a>
-                <a class="carousel-control-next" href="#offers" data-slide="next">
-                  <span class="carousel-control-next-icon"></span>
-                </a>
-        </main>
+                    <ul class="carousel-indicators">
+                        <li data-target="#offers" data-slide-to="0" class="active"></li>
+                        <li data-target="#offers" data-slide-to="1"></li>
+                        <li data-target="#offers" data-slide-to="2"></li>
+                    </ul>
+                    
+                    <div class="carousel-inner">
+                        <figure class="carousel-item active">
+                        <img src="image/bft.jpg" alt="bft" class="rounded-circle responsive">
+                        <figcaption class="carousel-caption">
+                        <p >Breakfast under $10. pay online</p>
+                        </figcaption>
+                        </figure>
+                        <figure class="carousel-item">
+                        <img src="image/chocowalnut.jpg" alt="chocowalnut" class=" rounded-circle responsive">
+                        <figcaption class="carousel-caption">
+                            <p >50% discount on desert on paytm</p>
+                        </figcaption>
+                        </figure>
+                        <figure class="carousel-item">
+                        <img src="image/lunch.jpg" alt="lunch" class="rounded-circle responsive">
+                        <figcaption class="carousel-caption">
+                            <p>order dinner online and get upto 30% cashback</p>
+                        </figcaption>
+                        </figure>
+                    </div>
+                    
+                    <a class="carousel-control-prev" href="#offers" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#offers" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+            </main>           
+        </div>
+        
+        
+            </section>
+            <section id="category" class="category ">
+                <h4>
+                    SEARCH FOR YOUR CRAVE
+                </h4>
+                <dl class="d-inline-flex justify-content-between">
+                    <div>
+                        <dt class="bft">BREAKFAST
+                        </dt>
+                        <p>
+                            <img src="image/bft.jpg" alt="BREAKFAST" class="responsive">
+        
+                            <dd>Your morning sets up the success of your day. 
+                                Have delecious breakfast.
+                                
+                            </dd>
+                       </p>
+                      </div>
+                      <div>
+                       
+                        <dt class="lunch">LUNCH
+                        </dt>
+                        <p>
+                            <img src="image/lunch.jpg" class="responsive">
+                            <dd>
+                                    When you have something for breakfast, you're not going to be starving by lunch.
+                            </dd>
+                        </p>
+                    </div>
+                    <div>
+                       
+                        <dt class="dinner">DINNER 
+                        </dt>
+                        <p>
+                            <img src="image/dinner.jpg"class="responsive">
+                            <dd>
+                                    There is only one difference between a long life and a good dinner: 
+                                    that, in the dinner, the sweets come last. 
+        
+                            </dd>
+                    </p>
+                    </div>
+                </dl>
+            </section>
+            <section></section>
+            <footer class="footer text-center ">
+                    <span>engineerdadhaba@copyright</span>
+            </footer>
 
 
     </body>
